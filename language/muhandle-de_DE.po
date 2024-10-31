@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: muhandle\n"
+"POT-Creation-Date: 2016-07-14 14:15+0200\n"
+"PO-Revision-Date: 2016-07-14 14:15+0200\n"
+"Last-Translator: aohipa GmbH <info@ccdm.de>\n"
+"Language-Team: aohipa GmbH <info@ccdm.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: classes/Backend.php:23 classes/Backend.php:24 classes/Backend.php:236
+#: classes/Backend.php:282
+msgid "Must use plugins"
+msgstr "Notwendige Plugins"
+
+#: classes/Backend.php:35
+#, php-format
+msgid "The plugins has been copied to %s. Please delete the plugin now"
+msgstr "Das Plugin wurde nach %s kopiert und kann jetzt gelöscht werden"
+
+#: classes/Backend.php:148
+msgid "At least one user has to remain in control."
+msgstr "Es muss mindestens ein Benutzer die Kontrolle behalten."
+
+#: classes/Backend.php:157
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: classes/Backend.php:159
+msgid "No changes."
+msgstr "Keine Änderungen."
+
+#: classes/Backend.php:162
+msgid "Could not write file."
+msgstr "Datei konnte nicht geschrieben werden."
+
+#: classes/Backend.php:179
+msgid "You are no longer allowed to see this page."
+msgstr "Du darfst diese Seite nicht länger sehen."
+
+#: classes/Backend.php:201
+msgid "Allowed Users"
+msgstr "Erlaubte Benutzer"
+
+#: classes/Backend.php:202
+msgid ""
+"Define which users are able to view this page and change the settings.<br /"
+"><strong>(Warning: Allowed users could remove your permissions)</strong>"
+msgstr ""
+"Definiere welche Benutzer das Recht erhalten diese Seite zu sehen und die "
+"Einstellungen zu verändern.<br /><strong>(Achtung: Erlaubte Benutzer könnten "
+"deine Rechte entfernen)</strong>"
+
+#: classes/Backend.php:237
+msgid ""
+"Define which plugins are required and can't be disabled or updated by "
+"ordinary administrators."
+msgstr ""
+"Definiere welche Plugins benötigt werden und von normalen Administratoren "
+"nicht deaktiviert oder aktualisiert werden können."
+
+#: classes/Backend.php:237
+msgid "Plugin"
+msgstr "Plugin"
+
+#: classes/Backend.php:237
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: classes/Backend.php:280
+msgid "Save"
+msgstr "Speichern"
+
+#: classes/Backend.php:284
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/Backend.php:285
+msgid "About"
+msgstr "Informationen"
+
+#: classes/Backend.php:295
+#, php-format
+msgid "Thank you for using '%s'"
+msgstr "Vielen Dank, dass du \"%s\" nutzt"
+
+#: classes/Backend.php:296
+msgid "Plugin features"
+msgstr "Plugin Fähigkeiten"
+
+#: classes/Backend.php:298
+msgid "Permission management"
+msgstr "Rechtemanagement"
+
+#: classes/Backend.php:299
+msgid "Restrict plugin updates und deactivation"
+msgstr "Beschränken von Plugin Updates und Deaktivierung"
+
+#: classes/Backend.php:300
+msgid "International"
+msgstr "International"
+
+#: classes/Backend.php:302
+msgid "Author"
+msgstr "Autor"
+
+#: functions/loadMustUsePlugins.php:145
+msgid "Must use"
+msgstr "Muss genutzt werden"
+
+#: must-use-plugins-handle.php:104
+#, php-format
+msgid "%s does not support WordPress Multisite completely"
+msgstr "%s unterstützt WordPress Multisite nicht vollständig"
+
+#~ msgid "%s does not support WordPress Multisite"
+#~ msgstr "%s unterstützt WordPress Multisite nicht"
+
+#~ msgid "The plugins is copied to %s. Please delete now the plugin"
+#~ msgstr "Das Plugin wurde nach %s kopiert und kann jetzt gelöscht werden"
+
+#~ msgid "Thank you for using %s"
+#~ msgstr "Vielen Dank, dass du %s nutzt"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "login"
+#~ msgstr "Benutzername"
+
+#~ msgid "email"
+#~ msgstr "E-Mail"
+
+#~ msgid "role"
+#~ msgstr "Rechte"

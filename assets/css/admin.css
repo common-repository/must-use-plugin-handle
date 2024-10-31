@@ -1,0 +1,166 @@
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+body.multisite .wp-list-table.plugins #must-use-plugins-handle.active th,
+body.multisite .wp-list-table.plugins #must-use-plugins-handle.active td {
+	background-color: #fefcf1
+}
+body.multisite .wp-list-table.plugins #must-use-plugins-handle.active th.check-column {
+	border-left: 4px solid #ffba00;
+}
+.no-js.toplevel_page_muhandle-list h2.nav-tab-wrapper {
+	display:none;
+}
+.toplevel_page_muhandle-list .wrap section {
+	display: none;
+}
+.toplevel_page_muhandle-list .wrap section:first-of-type {
+	display: block;
+}
+.no-js.toplevel_page_muhandle-list .wrap section {
+	display: block;
+}
+.toplevel_page_muhandle-list .wrap h2.title {
+	font-size: 23px;
+    font-weight: 400;
+	margin: 1.5em 0;
+}
+.toplevel_page_muhandle-list .wrap p {
+	margin-bottom: 1.5em;
+}
+.toplevel_page_muhandle-list .wrap ul {
+	list-style-type: disc;
+	padding-left: 40px;
+}
+
+.toplevel_page_muhandle-list .user {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 1em;
+	border: 1px solid #CCC;
+    margin-right: 15px;
+	color: #AAA;
+}
+
+.toplevel_page_muhandle-list .user label {
+	width: 200px;
+	display: block;
+	padding: 5px 5px 5px 28px;
+}
+.toplevel_page_muhandle-list .user label:hover {
+	background-color: #fff;
+}
+
+.toplevel_page_muhandle-list .user:last-child {
+	margin-bottom: 0;
+}
+
+.toplevel_page_muhandle-list .user input[type="checkbox"] {
+	position: absolute;
+	top: 13px;
+	left: 5px;
+}
+.toplevel_page_muhandle-list .wrap input {
+	max-width: 100%;
+}
+.toplevel_page_muhandle-list .wrap input[type="number"] {
+	width: 100%;
+}
+.toplevel_page_muhandle-list .user .login {
+	font-weight: bold;
+	color: #000;
+}
+
+.toplevel_page_muhandle-list .logo-box {
+    width: 260px;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #ccc;
+	background: rgb(79,107,136); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(79,107,136,1) 0%, rgba(24,61,99,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(79,107,136,1) 0%,rgba(24,61,99,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(79,107,136,1) 0%,rgba(24,61,99,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f6b88', endColorstr='#183d63',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.toplevel_page_muhandle-list .logo-box a {
+	color: #fff;
+}
+.toplevel_page_muhandle-list .logo-box img {
+	float: right;
+}
+
+.toplevel_page_muhandle-list fieldset.box {
+	max-width: 471px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.toplevel_page_muhandle-list fieldset.box > .row:first-of-type {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.toplevel_page_muhandle-list fieldset.box .plugin {
+	width: 70%;
+	float: left;
+}
+.toplevel_page_muhandle-list fieldset.box .order {
+	width: 30%;
+	float: right;
+}
+
+@media screen and (max-width: 782px) {
+	.toplevel_page_muhandle-list .user {
+		padding-left: 35px;
+	}
+}
+
+.toplevel_page_muhandle-list fieldset.box .sortable .row {
+	position: relative;
+}
+.toplevel_page_muhandle-list fieldset.box .sortable .row .icon {
+	display: none;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row {
+	padding: 5px;
+	border: 1px dotted #ccc;
+	margin-top: -2px;
+	color: #aaa;
+	background-color: #d1d1d1;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row.must-use {
+	cursor: move;
+	color: #000;
+	background-color: #f1f1f1;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row.must-use:hover {
+	background-color: #fff;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row [type=checkbox] {
+	margin-left: 15px;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row.must-use .icon {
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 10px 5px;
+	border-color: transparent transparent #666666 transparent;
+}
+.js.toplevel_page_muhandle-list fieldset.box .sortable .row.must-use .icon:before {
+	display: block;
+	content: '';
+	position: absolute;
+    left: -5px;
+    top: 12px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color: #666666 transparent transparent transparent;
+}
